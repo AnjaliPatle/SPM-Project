@@ -1,0 +1,151 @@
+a{
+color: black !important;
+}
+#toast-container{
+top:10%;
+right:44%;
+text-transform:capitalize;
+}
+.mytoastsuccess{
+background:#6ade3c;
+}
+.mytoasterror{
+background-color:#de3c3c;
+}
+.Navbar{
+position: fixed !important; /* Set the navbar to fixed position */
+  top: 0 !important; /* Position the navbar at the top of the page */
+  width: 100% !important;
+  z-index:9999 !important;
+}
+.myheading{
+font-size:350%;
+margin-top:5%;
+margin-bottom:5%;
+font-family: 'Grand Hotel',cursive;
+}
+#profile-img-card{
+border-radius:50%;
+border:solid #cfcaca 0.5px;
+min-width:30px;
+min-height:30px;
+max-width:30px;
+max-height:30px;
+}
+#profile-img{
+content-fit:contain;
+border-radius:50%;
+border:solid grey 2px;
+min-width:120px;
+min-height:120px;
+max-width:60%;
+max-height:60%;
+}
+#userprofile-img{
+content-fit:contain;
+border:solid grey 2px;
+border-radius:50%;
+min-width:120px;
+min-height:120px;
+max-width:50%;
+max-height:50%;
+}
+#modal1{
+overflow:auto;
+}
+#modal2{
+width:40%;
+height:20%;
+}
+.gallery{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-around;
+}
+.item{
+width:30%;
+margin-bottom:3.333333%;
+}
+.tt{
+font-family: 'Montserrat', sans-serif;
+}
+#username{
+text-transform:capitalize;
+margin-bottom:3%;
+}
+#otherusername{
+text-transform:capitalize;
+margin-bottom:2%;
+}
+.mycard{
+margin:10px auto;
+margin-top:5%;
+padding:0% 3% 1% 3%;
+}
+.Title{
+margin-left:10px !important;
+}
+.logout{
+margin-right:10px !important;
+margin-left:10px !important;
+}
+.brand-logo{
+font-family: 'Grand Hotel', cursive;
+}
+.mybutton{
+margin-bottom:5%;
+margin-top:6%;
+
+background: #f09433;
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#59e0d7+0,4f69ff+24,823ee0+40,e53051+100 */
+background: #59e0d7; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #59e0d7 0%, #4f69ff 24%, #823ee0 40%, #e53051 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #59e0d7 0%,#4f69ff 24%,#823ee0 40%,#e53051 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #59e0d7 0%,#4f69ff 24%,#823ee0 40%,#e53051 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59e0d7', endColorstr='#e53051',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.main-content{
+margin-top:7%;
+}
+#edit{
+margin-top:3%;
+}
+.home-card{
+padding:24px;
+margin: 3% auto;
+max-width:45%;
+height:max-content;
+}
+.material-icons:hover{
+cursor:pointer;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position:relative;
+  top: 0%;
+  left: 49.3%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .profile-img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.footer {
+  position: fixed;
+  padding:0.5% 1% 0% 1%;
+  left: 0;
+  bottom: 0;
+  opacity:0.6;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
